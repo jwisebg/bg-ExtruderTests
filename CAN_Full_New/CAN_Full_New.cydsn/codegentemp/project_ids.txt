@@ -1,0 +1,6 @@
+C:\biobotsdev\bg-ExtruderTests\CAN_Full_New\CAN_Full_New.cydsn\CAN_Full_New.cyprj|633b1a1e-1a7f-4fa2-b655-0f5a2304810b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|9690d153-afd0-4d55-aee8-4028dbf14413
+\\Mac\Home\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|0d74b2e6-1062-4614-8459-147e88866280
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0741a40d-7092-464a-abee-3b555973ce24
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|9979cff8-fcbb-47b6-b9b7-eeaa6d156b68
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|56964a41-54ff-4efb-9b5a-3ded0b02f919
