@@ -1,0 +1,124 @@
+--------------- Rebuild Started: 08/07/2017 14:07:17 Project: CAN_Full_Extruder, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\RX.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\TX.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_INT.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\TX_EN.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LCD.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LCD_PM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\EEPROM.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\LCD_LCDPort.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\Cm3Start.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyDmac.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CySpc.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.hex"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.map"
+Deleting file ".\CAN_Full_Extruder.cycdx"
+Deleting file ".\CAN_Full_Extruder.svd"
+Deleting file ".\CAN_Full_Extruder.rpt"
+Deleting file ".\CAN_Full_Extruder_timing.html"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM3\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\jwise\AppData\Local\Cypress Semiconductor\PSoC Creator\4.1" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\CAN_Full_Extruder.cyprj" -d CY8C5868AXI-LP035 -s "\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: sdb.M0060: warning: Warning in component: CAN. The BUS_CLK clock accuracy should be 0.5% or better. Please, use an external XTAL or external clock source to meet the CAN accurate clocking requirements.
+ * \\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\TopDesign\TopDesign.cysch (Instance:CAN)
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+main.c: In function 'processIncomingMessage':
+main.c:722:15: warning: unused variable 'byte4' [-Wunused-variable]
+         uint8 byte4 = 0;
+               ^
+main.c:721:15: warning: unused variable 'byte3' [-Wunused-variable]
+         uint8 byte3 = 0;
+               ^
+main.c:720:15: warning: unused variable 'byte2' [-Wunused-variable]
+         uint8 byte2 = 0;
+               ^
+main.c:719:15: warning: unused variable 'byte1' [-Wunused-variable]
+         uint8 byte1 = 0;
+               ^
+main.c:717:13: warning: unused variable 'functionID' [-Wunused-variable]
+         int functionID = 0;
+             ^
+main.c: At top level:
+main.c:1246:13: warning: 'SendU56' defined but not used [-Wunused-function]
+ static int8 SendU56(uint8 u8FunctionID,uint8 txMailbox, uint64 value)
+             ^
+main.c:1433:15: warning: 'ReceiveU56' defined but not used [-Wunused-function]
+ static uint64 ReceiveU56(uint8 rxMailbox)
+               ^
+main.c:1394:16: warning: 'ReceiveF32ToEEPROM' defined but not used [-Wunused-function]
+ static float32 ReceiveF32ToEEPROM(uint8 rxMailbox, uint16 address)
+                ^
+main.c:1463:13: warning: 'InitAMuxs' defined but not used [-Wunused-function]
+ static void InitAMuxs(void)
+             ^
+main.c:1485:13: warning: 'InitADCs' defined but not used [-Wunused-function]
+ static void InitADCs(void)
+             ^
+main.c:1511:13: warning: 'InitVDACs' defined but not used [-Wunused-function]
+ static void InitVDACs(void)
+             ^
+main.c:1553:13: warning: 'InitFanPWM' defined but not used [-Wunused-function]
+ static void InitFanPWM(void)
+             ^
+main.c:357:21: warning: 'ctrl1' defined but not used [-Wunused-variable]
+ static Controller_t ctrl1 = {};
+                     ^
+main.c:358:21: warning: 'ctrl2' defined but not used [-Wunused-variable]
+ static Controller_t ctrl2 = {};
+                     ^
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cymetadata.c -o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\RX.c -o .\CortexM3\ARM_GCC_541\Debug\RX.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RX.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\TX.c -o .\CortexM3\ARM_GCC_541\Debug\TX.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/TX.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CAN.c -o .\CortexM3\ARM_GCC_541\Debug\CAN.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CAN.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CAN_INT.c -o .\CortexM3\ARM_GCC_541\Debug\CAN_INT.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CAN_INT.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CAN_PM.c -o .\CortexM3\ARM_GCC_541\Debug\CAN_PM.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CAN_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CAN_TX_RX_func.c -o .\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CAN_TX_RX_func.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\TX_EN.c -o .\CortexM3\ARM_GCC_541\Debug\TX_EN.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/TX_EN.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\LCD.c -o .\CortexM3\ARM_GCC_541\Debug\LCD.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LCD.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\LCD_PM.c -o .\CortexM3\ARM_GCC_541\Debug\LCD_PM.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LCD_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\EEPROM.c -o .\CortexM3\ARM_GCC_541\Debug\EEPROM.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/EEPROM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\LCD_LCDPort.c -o .\CortexM3\ARM_GCC_541\Debug\LCD_LCDPort.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LCD_LCDPort.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\Cm3Start.c -o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Cm3Start.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CyDmac.c -o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyDmac.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CyFlash.c -o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CyLib.c -o .\CortexM3\ARM_GCC_541\Debug\CyLib.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cyPm.c -o .\CortexM3\ARM_GCC_541\Debug\cyPm.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\CySpc.c -o .\CortexM3\ARM_GCC_541\Debug\CySpc.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CySpc.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-gcc.exe -c Generated_Source\PSoC5\cyutils.c -o .\CortexM3\ARM_GCC_541\Debug\cyutils.o -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og
+arm-none-eabi-as.exe -o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC5\CyBootAsmGnu.s -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.a .\CortexM3\ARM_GCC_541\Debug\RX.o .\CortexM3\ARM_GCC_541\Debug\TX.o .\CortexM3\ARM_GCC_541\Debug\CAN.o .\CortexM3\ARM_GCC_541\Debug\CAN_INT.o .\CortexM3\ARM_GCC_541\Debug\CAN_PM.o .\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o .\CortexM3\ARM_GCC_541\Debug\TX_EN.o .\CortexM3\ARM_GCC_541\Debug\LCD.o .\CortexM3\ARM_GCC_541\Debug\LCD_PM.o .\CortexM3\ARM_GCC_541\Debug\EEPROM.o .\CortexM3\ARM_GCC_541\Debug\LCD_LCDPort.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf" .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/CAN_Full_Extruder.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+cyelftool.exe -S "\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf"
+Flash used: 10376 of 262144 bytes (4.0 %).
+SRAM used: 2857 of 65536 bytes (4.4 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Rebuild Succeeded: 08/07/2017 14:07:31 ---------------

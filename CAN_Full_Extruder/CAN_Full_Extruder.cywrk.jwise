@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CAN_Full_Extruder\CAN_Full_Extruder\Source Files\main.c">
+<ExpandedNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Pins</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Analog</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Clocks</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Interrupts</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\DMA</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\System</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Directives</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Flash Security</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\EEPROM</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cyre</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Header Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Header Files\cyapicallbacks.h</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Source Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Source Files\main.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Example.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Pins</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Analog</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Clocks</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Interrupts</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\DMA</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\System</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Directives</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\Flash Security</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cydwr\EEPROM</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.cyre</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Header Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Header Files\cyapicallbacks.h</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Source Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Source Files\main.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Example.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN\CAN.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN\CAN.h</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN\CAN_INT.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN\CAN_PM.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\CAN\CAN_TX_RX_func.c</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\cy_boot</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\EEPROM</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\LCD</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Generated_Source\PSoC5\LCD_LCDPort</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CAN_Full_Extruder">
+<ExpandedNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_INT.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_PM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_TX_RX_func.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\EEPROM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\RX.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\TX.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\TX_EN.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.hex</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.map</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.gpdsc</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder.rpt</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_Full_Extruder_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_INT.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_PM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_TX_RX_func.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\EEPROM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\RX.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\TX.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\Listing Files\TX_EN.lst</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.elf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.hex</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CortexM3\ARM_GCC_541\Debug\CAN_Full_Extruder.map</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CAN_Full_Extruder\CAN_Full_Extruder">
+<ExpandedNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\PSoC 5LP Architecture TRM</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CY8C58LP Family Datasheet</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\System Reference Guides</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\System Reference Guides\cy_boot_v5_60</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Project Datasheet</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_v3_0.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CharLCD_v2_20.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\cy_pins_v2_20</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\EEPROM_v3_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\PSoC 5LP Architecture TRM</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CY8C58LP Family Datasheet</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\System Reference Guides</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\System Reference Guides\cy_boot_v5_60</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\Project Datasheet</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CAN_v3_0.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\CharLCD_v2_20.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\cy_pins_v2_20</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CAN_Full_Extruder\CAN_Full_Extruder\EEPROM_v3_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CAN_Full_Extruder.cydsn\main.c" />
+<name v=".\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" />
+<name v=".\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN.h" />
+<name v=".\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_PM.c" />
+<name v=".\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_INT.c" />
+<name v=".\CAN_Full_Extruder.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CAN_Full_Extruder.cydsn\cyapicallbacks.h" />
+<name v=".\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CyBootAsmGnu.s" />
+<name v=".\CAN_Full_Extruder.cydsn\CAN_Full_Extruder.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="661, 406" SelectedTabbedMdiWindow="ab6ce22f-c911-4f21-ba27-e18be817f068"><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\main.c" Guid="ab6ce22f-c911-4f21-ba27-e18be817f068" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" Guid="d14a5537-a822-4954-9968-4f619a7a807a" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN.h" Guid="5840f542-f5af-4103-9402-f0073941ff36" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_PM.c" Guid="785ebb3b-487f-4864-99b9-7fe26b02e035" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CAN_INT.c" Guid="6a7d40b5-28da-4ee7-80ee-5a6144d73668" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\TopDesign\TopDesign.cysch" Guid="bd2a36ab-8879-4fac-9b99-4f1a46542889" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\cyapicallbacks.h" Guid="e8991b0c-0d50-4f9b-b8ae-969ba2e17ba6" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\Generated_Source\PSoC5\CyBootAsmGnu.s" Guid="d5bf1520-2d3f-46be-b923-f2b24f628219" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_Extruder\CAN_Full_Extruder.cydsn\CAN_Full_Extruder.cydwr" Guid="313cacb1-c90d-4c50-b5ae-b0915643c298" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ae367f33-9ee3-4279-8f00-6df0b97754cf" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
