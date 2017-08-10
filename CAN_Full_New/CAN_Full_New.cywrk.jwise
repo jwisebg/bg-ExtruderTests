@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CAN_Full_New\CAN_Full_New\Generated_Source\PSoC5\CAN\CAN_TX_RX_func.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CAN_Full_New\CAN_Full_New\Source Files\main.c">
 <ExpandedNodeIds>
 <v>CAN_Full_New</v>
 <v>CAN_Full_New\CAN_Full_New</v>
@@ -213,18 +213,7 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\CAN_Full_New.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\CAN_Full_New.cydsn\CAN_Full_New.cydwr" />
 <name v=".\CAN_Full_New.cydsn\main.c" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN.h" />
-<name v=".\CAN_Full_New.cydsn\cyapicallbacks.h" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\project.h" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN_INT.c" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN.c" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\cytypes.h" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\CyLib.c" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\LCD.h" />
-<name v=".\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -232,7 +221,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1350, 711" SelectedTabbedMdiWindow="9a1af4f1-227b-410d-9574-a7315f6e5c54"><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\TopDesign\TopDesign.cysch" Guid="58293550-b1b9-4223-9f79-3525f0479590" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\CAN_Full_New.cydwr" Guid="622c8d70-c924-414a-8685-7d5b355e2a07" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\main.c" Guid="9a1af4f1-227b-410d-9574-a7315f6e5c54" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN.h" Guid="6acd32fb-8028-4e33-bf1a-f6e68e235e7d" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\cyapicallbacks.h" Guid="cf9bfff9-1824-45b4-b488-d69b08ad66aa" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\project.h" Guid="4b7841f1-b411-4b90-bd23-b82421dc491f" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN_INT.c" Guid="df0a2486-b330-4f51-8cbe-7785c09fe77c" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN.c" Guid="e02f2b5d-3479-40ba-bbd9-9aaa6f69014e" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\cytypes.h" Guid="a414ba48-8526-4f8a-a347-5bc5e57fff86" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\CyLib.c" Guid="45cda643-0530-4e16-9b06-6326e9a5aadd" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\LCD.h" Guid="4c25d938-426a-4b01-859d-abc46305f867" /><DocumentWindow Key="\\Mac\Home\Documents\PSoC Creator\CAN_Full_New\CAN_Full_New.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" Guid="ddea4db9-40e7-4bcf-9724-fe5c05e01105" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ae367f33-9ee3-4279-8f00-6df0b97754cf" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1350, 711" SelectedTabbedMdiWindow="dd223cc4-1a21-4b6f-b408-c1daae64e823"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ae367f33-9ee3-4279-8f00-6df0b97754cf" /><DocumentWindow Key="C:\biobotsdev\bg-ExtruderTests\CAN_Full_New\CAN_Full_New.cydsn\main.c" Guid="dd223cc4-1a21-4b6f-b408-c1daae64e823" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
